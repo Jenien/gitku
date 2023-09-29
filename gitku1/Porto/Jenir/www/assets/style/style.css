@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background: linear-gradient(to right, #dfdfdf, hsl(239, 63%, 85%),#7f76f9);
+    border-style: dotted;border-color: linear-gradient(to right, rgb(72, 0, 255),rgb(243, 178, 243));
+}
+header{
+    font-family:Times;
+    display: flex;
+    justify-content: center;
+    background : linear-gradient(to right, #fef9ff, hsl(232, 96%, 78%),#6c78ff);
+}
+jumbotron {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  font-family: cursive;
+  color: rgb(214, 210, 255);
+
+}
+
+.container{
+  background-color: rgb(196, 184, 247);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 5px solid rgb(110, 84, 255);
+  padding: 10px;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+.atas{
+  float: left;
+  width: 70%;
+}
+
+.card{
+  background-color: rgb(200, 190, 253);
+  border: 1px solid rgb(38, 18, 220);
+  padding: 10px;
+  font-family: cursive;
+  justify-content: space-evenly;
+}
+.card h2, .card ul{
+  text-align: center;
+} 
+
+.card ul li{
+  display: inline;
+  margin: 15px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  color: #a2a0fd;
+  background-color: #4935f6;
+}
+#content {
+    width: 100%;
+  }
+main {
+  padding: 20px;
+  overflow: auto;
+}
+aside {
+    display: flex;
+    box-sizing: border-box;
+}
+
+h1{
+  text-align:center;
+  font-family :monospace;
+  text-align: center;
+  text-shadow: rgb(75, 5, 216);
+  color:rgb(7, 57, 255);
+}
+h2,h3 {
+  color: #030303;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+  .container{
+        display: flex;
+        justify-content: space-evenly;
+      }
+    aside {
+      width: 50%;
+      padding: 0;
+    }
+    main {
+      width: 50%;
+      padding: 0;
+    }
+  }
+  
